@@ -1,0 +1,93 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fbff05;
+}
+
+header {
+	top: 20px; /* Posicionamiento superior */
+    left: 0; /* Posicionamiento izquierdo */
+    width: 200px; /* Ancho del menú */
+    height: 100vh; /* Altura del menú (100% del viewport) */
+    background-color: #f12020; /* Color de fondo del menú */
+    padding: 20px; /* Padding interno del menú */
+	flex:1;
+    transition: all 0.3s ease; /* Animación de transición para suavizar los cambios */
+}
+
+h1 {
+    text-align: center;
+    display: block;
+    background-image: url('../imagenes/banner-menu.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 40px 0;
+    margin: 0;
+    width: 100%;
+    height: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+	display: block; /* Ocupa todo el ancho disponible */
+    padding: 10px; /* Padding para cada enlace */
+    text-decoration: none; /* Elimina la decoración por defecto */
+    color: #fffb00; /* Color del texto de los enlaces */
+    transition: color 0.3s ease; /* Animación de transición para el color */
+
+}
+
+main {
+    padding: 20px;
+	display: inline;
+	flex:4;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #000000;
+    padding: 8px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+}  
+
+.contenedor{
+	display:flex;
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de HTML5</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+	<h1>McDonalds (I'm lovin it)</h1>
+	<div class="contenedor">
+		<header>
+			
+			<nav>
+				<ul>
+					<li><a href="#inicio">Inicio</a></li>
+					<li><a href="#seccion1">Sección 1</a></li>
+					<li><a href="#seccion2">Sección 2</a></li>
+					<li><a href="#acerca-de">Acerca de</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main>
+			<section id="inicio">
+				<h2>Bienvenido a McDonalds</h2>
+				<p>Tenemos diferentes opciones en el menú y elige tu favorito. El lugar donde el sabor, la rapidez y la diversión se unen. Disfruta de nuestros icónicos combos, deliciosas hamburguesas, crujientes papas fritas y mucho más en un ambiente diseñado para toda la familia. Descubre nuestras promociones y vive la experiencia que amas, siempre a tu manera.</p>
+			</section>
+
+			<section id="seccion1">
+				<h2>Sección 1 = Menú Principal</h2>
+				<p>Escoge tu opción preferida de nuestro variado menú</p>
+				<table>
+					<thead>
+						<tr>
+							<th><img src="../imagenes/mcCombos.jpg" alt="Mc Combos" width="250"><figcaption>Mc Combos</figcaption> </th>
+							<th><img src="../imagenes/mcNuggets.jpg" alt="Mc Nuggets" width="250"><figcaption>Mc Nuggets</figcaption> </th>
+							<th><img src="../imagenes/mcChicken.jpg" alt="Mc Chicken" width="250"><figcaption>Mc Chicken</figcaption> </th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td><img src="../imagenes/cajitaFeliz.jpg" alt="Cajita Feliz" width="250"><figcaption>Cajita Feliz</figcaption></td>
+							<td><img src="../imagenes/mcDesayunos.jpg" alt="Mc Desayunos" width="250"><figcaption>Mc Desayunos</figcaption> </td>
+							<td><img src="../imagenes/signatureCollection.jpg" alt="Signature Collection" width="250"><figcaption>Signature Collection </figcaption></td>
+						</tr>
+						<tr>
+							<td><img src="../imagenes/mcEnsaladas.jpg" alt="Mc Ensaladas" width="250"><figcaption>Mc Ensaladas</figcaption> </td>
+							<td><img src="../imagenes/mcPostres.jpg" alt="Mc Postres" width="250"><figcaption>Mc Postres </figcaption></td>
+							<td><img src="../imagenes/mcBebidas.jpg" alt="Mc Bebidas" width="350"><figcaption>Mc Bebidas </figcaption></td>
+						</tr>
+					</tbody>
+				</table>
+			</section>
+
+			<section id="seccion2">
+				<h2>Sección 2 = Opiniones & Sugerencias</h2>
+				<p>Contenido de la Sección 2</p>
+				<form action="procesar.php" method="post">
+					<label for="nombre">Nombre:</label>
+					<input type="text" id="nombre" name="nombre" required>
+
+					<label for="email">Correo electrónico:</label>
+					<input type="email" id="email" name="email" required>
+
+					<label for="mensaje">Mensaje:</label>
+					<textarea id="mensaje" name="mensaje" rows="5" cols="30" required></textarea>
+
+					<button type="submit">Enviar</button>
+				</form>
+			</section>
+
+			<section id="acerca-de">
+				<h2>Acerca de</h2>
+				<p>Información sobre el sitio web o el autor.</p>
+				<ul>
+					<li>Arianna Barrera</li>
+					<li>Guayaquil, EC</li>
+					<li>Mc McDonalds Ecuador</li>
+				</ul>
+			</section>
+		</main>
+	</div>
+    <footer>
+        <p>&copy; 2025 McDonalds (I'm lovin it)</p>
+    </footer>
+</body>
+</html>
